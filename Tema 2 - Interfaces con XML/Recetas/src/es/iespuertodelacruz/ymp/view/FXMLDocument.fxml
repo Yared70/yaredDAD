@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="644.0" prefWidth="1142.0" style="-fx-background-color: #15202B;" stylesheets="@../assets/index.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="es.iespuertodelacruz.ymp.controller.FXMLDocumentController">
+   <children>
+      <Button id="btnPrincipal" fx:id="btnPrincipal" layoutX="60.0" layoutY="50.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="Principal" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnInfo" layoutX="173.0" layoutY="50.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="Información Nutricional" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnSearch" layoutX="411.0" layoutY="50.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="Buscador Recetas" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnStats" layoutX="620.0" layoutY="50.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="Estadísticas" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnAdmin" layoutX="780.0" layoutY="50.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="Gestión Usuarios" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnNotes" layoutX="972.0" layoutY="50.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="Poner Notas" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="48.0" fitWidth="30.0" layoutX="34.0" layoutY="46.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/icons8-home-page-64.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="48.0" fitWidth="30.0" layoutX="158.0" layoutY="46.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/icons8-information-64.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="48.0" fitWidth="30.0" layoutX="389.0" layoutY="46.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/icons8-view-64.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="46.0" fitWidth="30.0" layoutX="591.0" layoutY="46.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/icons8-combo-chart-64.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="46.0" fitWidth="30.0" layoutX="757.0" layoutY="46.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/icons8-more-info-64.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="46.0" fitWidth="30.0" layoutX="946.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/icons8-windows-notepad-64.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ivCerrar" fitHeight="25.0" fitWidth="38.0" layoutX="1103.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/icons8-close-window-80.png" />
+         </image>
+      </ImageView>
+      <AnchorPane fx:id="panePanel" layoutY="71.0" prefHeight="573.0" prefWidth="1142.0" style="-fx-background-color: dark-grey;">
+         <children>
+            <ListView id="lvRecetas" fx:id="lvRecetas" layoutX="132.0" layoutY="128.0" prefHeight="406.0" prefWidth="878.0" style="-fx-background-color: #15202B;" />
+            <TextField id="txtFiltrar" fx:id="txtFiltrar" layoutX="218.0" layoutY="77.0" promptText="Filtrar por nombre" style="-fx-background-color: #15202B;">
+               <font>
+                  <Font size="13.0" />
+               </font></TextField>
+            <ImageView id="iconHelp" fx:id="iconHelp" fitHeight="29.0" fitWidth="18.0" layoutX="920.0" layoutY="83.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/icons8-help-32.png" />
+               </image>
+            </ImageView>
+            <Label id="lblInfo" fx:id="lblInfo" layoutX="724.0" layoutY="59.0" text="Click derecho en cualquier receta abre un menu con opciones" textFill="#d1cdcd" visible="false" />
+            <ImageView id="imgNew" fx:id="imgNew" fitHeight="29.0" fitWidth="30.0" layoutX="735.0" layoutY="78.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/icons8-cooking-book-50.png" />
+               </image>
+            </ImageView>
+            <Button id="btnNew" fx:id="btnNew" layoutX="764.0" layoutY="80.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="Nueva Receta" textFill="#d0d6d6" />
+         </children></AnchorPane>
+   </children>
+</AnchorPane>

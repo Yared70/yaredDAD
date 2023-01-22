@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="564.0" prefWidth="876.0" style="-fx-background-color: #042630;" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="es.iespuertodelacruz.ymp.controller.FXMLRecetaInfoController">
+    <stylesheets>
+        <URL value="@/es/iespuertodelacruz/ymp/assets/index.css" />
+    </stylesheets>
+   <children>
+      <ListView id="lvReceta" fx:id="lvReceta" layoutX="58.0" layoutY="33.0" prefHeight="484.0" prefWidth="750.0" style="-fx-background-color: #042630;" />
+      <ImageView id="imgReceta" fx:id="imgReceta" fitHeight="150.0" fitWidth="200.0" layoutX="640.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="ivSalir" fitHeight="96.0" fitWidth="31.0" layoutX="831.0" layoutY="517.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/icons8-logout-80.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ivCerrar" fitHeight="65.0" fitWidth="31.0" layoutX="840.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/icons8-close-window-80.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

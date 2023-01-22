@@ -1,0 +1,104 @@
+#lvRecetas .list-cell:even{
+    
+    -fx-text-fill: #d0d6d6;
+    -fx-background-color:  #15202B;  
+    -fx-font-size: 15;
+
+ 
+
+}
+
+#lvRecetas .list-cell:odd{
+    
+    -fx-text-fill: #d0d6d6;
+    -fx-background-color:  #15202B;
+        -fx-font-size: 15;
+
+    
+}
+
+#lvRecetas .list-cell:hover{
+    
+    -fx-text-fill: #99ccff
+    
+}
+
+#lvRecetas .list-cell{
+        -fx-alignment: center;
+    -fx-text-alignment: justify;
+    -fx-padding: 5px;
+}
+
+#lvRecetas .scroll-bar:vertical{
+    -fx-scrollbar-visibility: hidden;
+    -fx-scale-x: 0
+}
+
+
+#txtFiltrar {
+    
+        -fx-text-fill: #d0d6d6;
+       
+}
+
+
+#lvReceta .list-cell:even{
+    
+    -fx-text-fill: #d0d6d6;
+    -fx-background-color:  #042630;  
+    -fx-font-size: 14;
+
+ 
+
+}
+
+#lvReceta .list-cell:odd{
+    
+    -fx-text-fill: #d0d6d6;
+    -fx-background-color:  #042630;
+        -fx-font-size: 14;
+
+    
+}
+
+#lvReceta .scroll-bar:vertical{
+    -fx-scrollbar-visibility: hidden;
+    -fx-scale-x: 0
+}
+
+
+#lvReceta .list-cell{
+
+    -fx-padding: 2px;
+}
+
+#btnNew:hover {
+    
+    -fx-text-fill: #99ccff
+    
+}
+
+
+#btnPrincipal:hover {
+-fx-text-fill: #99ccff;
+}
+
+#btnInfo:hover {
+-fx-text-fill: #99ccff;
+}
+
+#btnSearch:hover {
+-fx-text-fill: #99ccff;
+}
+
+#btnStats:hover {
+-fx-text-fill: #99ccff;
+}
+
+#btnAdmin:hover {
+-fx-text-fill: #99ccff;
+}
+
+#btnNotes:hover {
+-fx-text-fill: #99ccff;
+}

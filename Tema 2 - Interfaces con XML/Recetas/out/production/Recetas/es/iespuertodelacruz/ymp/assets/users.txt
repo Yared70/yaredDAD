@@ -1,0 +1,4 @@
+admin:admin:profesor
+juan:j4:alumno
+pepe:p4:profesor
+yaiza:y5:alumno

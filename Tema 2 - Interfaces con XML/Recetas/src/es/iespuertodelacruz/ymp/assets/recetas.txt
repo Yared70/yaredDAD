@@ -1,0 +1,6 @@
+Pollo;juan;Segundo;-Pollo,-Aceite;-Poner en la plancha;2;15;200;pollo.jpg
+Merluza;admin;Segundo;-Merluza de 500g,-Aceite,-cebolla,-tomate,-agua;-Poner a rehogar la cebolla y el tomate con aceite 10 minutos,-añadir el pescado y un vaso de agua;2;45;300;pollo.jpg
+Guacamole;laura;Entrante;-aguacate,-cebolla,-limón,-tomate;-pelar y cortar todos los ingredientes,-machacar el aguacate con un tenedor,-mezclar todo bien;4;20;140;guacamole.jpg
+Bizcochon;yaiza;Postre;-Harina,-huevos,-leche,-aceite,-levadura,-yogurt;-Mezclar los ingredientes secos y reservar,-mezclar los demás ingredientes,-Añadir a los liquidos la mezcla de los ingredientes secos poco a poco removiendo bien,-engrasar el molde y poner la masa, dejar en el horno precalentado 180 grados por 30 minutos;4;60;400;bizcochon.jpg
+Sopa de pollo;admin;Primero;-Apio,-Agua,-Cebolla,-Nabo,-chirivia,-Puerro,-muslo de pollo;-Poner a hervir una olla grande con mucha agua,-Mientras limpiar, pelar y cortar bien los ingredientes y añadirlos a la olla y dejar cociendo 1 hora;4;75;150;sopa.jpg
+Flane;juan;Postres;-Huevos,-Leche,-mucho amor,;-Batir,-Hornear,;8;30;150;flan.jpg
