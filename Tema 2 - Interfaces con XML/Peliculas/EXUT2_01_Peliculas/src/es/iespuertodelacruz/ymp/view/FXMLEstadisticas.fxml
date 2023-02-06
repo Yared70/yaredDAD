@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="543.0" prefWidth="804.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17" fx:controller="es.iespuertodelacruz.ymp.controller.FXMLEstadisticasController">
+    <stylesheets>
+        <URL value="@/es/iespuertodelacruz/ymp/assets/fxmlestadisticas.css" />
+    </stylesheets>
+   <children>
+      <ImageView fx:id="btnCerrar" fitHeight="80.0" fitWidth="37.0" layoutX="746.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/icons8-close-window-100.png" />
+         </image>
+      </ImageView>
+      <PieChart fx:id="chartDate" layoutX="152.0" layoutY="84.0" />
+      <Label layoutX="317.0" layoutY="39.0" text="Peliculas por año">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

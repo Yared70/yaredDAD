@@ -177,6 +177,8 @@ public class FXMLDocumentController implements Initializable {
         btnStats.setOnMouseClicked(event -> verStats());
 
         ivCerrar.setOnMouseClicked(event -> cerrarAplicacion());
+        
+        btnAdmin.setOnMouseClicked(event -> verUsuarios());
  
         
     }
@@ -321,6 +323,31 @@ public class FXMLDocumentController implements Initializable {
         if (result.get() == ButtonType.OK){
             Platform.exit();
         }
+        
+    }
+
+    private void verUsuarios() {
+       
+          Stage stage2 = (Stage) btnPrincipal.getScene().getWindow();
+        stage2.close();
+        
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/es/iespuertodelacruz/ymp/view/FXMLUsuarios.fxml"));
+
+        Parent newLayout = null;
+        try {
+            newLayout = loader.load();
+        } catch (IOException ex) {
+            Logger.getLogger(FXMLDocumentController.class.getName()).log(Level.SEVERE, null, ex);
+        }
+
+        FXMLUsuariosController controller = (FXMLUsuariosController) loader.getController();
+        Scene newScene = new Scene(newLayout);
+        Stage stageNew = new Stage();
+        stageNew.setScene(newScene);
+
+        //stage.setMaximized(true);
+        stageNew.initStyle(StageStyle.UNDECORATED);
+        stageNew.show();
         
     }
 
